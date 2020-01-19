@@ -1,3 +1,11 @@
+.card {
+  transform: scale(1);
+  transition: all 200ms;
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
 
 a {
   text-decoration: none;

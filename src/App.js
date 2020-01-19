@@ -4,8 +4,8 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Company from './Components/Company';
-import Home from './Components/Home';
+import Company from './components/Company';
+import Home from './components/Home';
 import { ThemeProvider } from 'emotion-theming'
 import { preset } from '@rebass/preset'
 import './App.css';
