@@ -1,16 +1,105 @@
 const COMPANIES = [
-  { company: 'Shopify', color: '#50B83C' },
-  { company: 'Microsoft', color: '#F25022' },
-  { company: 'Stripe', color: '#008CDD' },
-  { company: 'Company 4', color: 'secondary' },
-  { company: 'Company 5', color: 'secondary' },
-  { company: 'Company 6', color: 'secondary' },
-  { company: 'Company 7', color: 'secondary' },
-  { company: 'Company 8', color: 'secondary' },
-  { company: 'Company 9', color: 'secondary' },
-  { company: 'Company 10', color: 'secondary' },
-  { company: 'Company 11', color: 'secondary' },
-  { company: 'Company 12', color: 'secondary' },
+   {
+      company:'Shopify',
+      color:'#50B83C',
+      url:''
+   },
+   {
+      company:'Microsoft',
+      color:'#F25022',
+      url:'https://blogs.microsoft.com/blog/2020/01/16/microsoft-will-be-carbon-negative-by-2030/'
+   },
+   {
+      company:'Google',
+      color:'#4285F4',
+      url:''
+   },
+   {
+      company:'Stripe',
+      color:'#008CDD',
+      url:''
+   },
+   {
+      company:'Facebook',
+      color:'#4267B2',
+      url:'https://sustainability.fb.com/sustainability-in-numbers/'
+   },
+   {
+      company:'Apple',
+      color:'#555555',
+      url:'https://www.apple.com/environment/our-approach/'
+   },
+   {
+      company:'Adobe',
+      color:'#FF0000',
+      url:'https://www.adobe.com/corporate-responsibility/sustainability/energy-conservation.html'
+   },
+   {
+      company:'Amazon',
+      color:'#FF9900',
+      url:'https://blog.aboutamazon.com/sustainability/the-climate-pledge'
+   },
+   {
+      company:'Accenture',
+      color:'#0089FF',
+      url:''
+   },
+   {
+      company:'Atlassian',
+      color:'#172B4D',
+      url:'https://www.atlassian.com/blog/announcements/atlassian-commits-to-the-fight-against-global-climate-change'
+   },
+   {
+      company:'Autodesk',
+      color:'#0696D7',
+      url:'https://www.autodesk.com/sustainability/business-operations'
+   },
+   {
+      company:'HP',
+      color:'#0096D6',
+      url:'https://www8.hp.com/us/en/hp-information/environment/footprint.html'
+   },
+   {
+      company:'Lyft',
+      color:'#FF00BF',
+      url:'https://blog.lyft.com/posts/lyft-commits-to-full-carbon-neutrality-and-100-renewable-energy'
+   },
+   {
+      company:'Salesforce',
+      color:'#009EDB',
+      url:'https://www.salesforce.com/company/news-press/press-releases/2019/09/191809-gl/'
+   },
+   {
+      company:'VMware',
+      color:'#717074',
+      url:'https://www.vmware.com/radius/achieving-carbon-neutrality/'
+   },
+   {
+      company:'Workday',
+      color:'#E28225',
+      url:'https://www.workday.com/en-us/company/about-workday/sustainability.html'
+   },
+   {
+      company:'LinkedIn',
+      color:'#2867B2',
+      url:'https://socialimpact.linkedin.com/environmental-sustainability'
+   },
+   {
+      company:'Uber',
+      color:'#000000',
+      url:'https://www.uber.com/us/en/community/supporting-cities/sustainability/'
+   },
+   {
+      company:'Cisco',
+      color:'#049FD9',
+      url:'https://www.cisco.com/c/en/us/about/csr/impact/environmental-sustainability.html'
+   },
+   {
+      company:'Samsara',
+      color:'#0A253E',
+      url:'https://www.samsara.com/blog/sustainability'
+   },
+
 ];
 
 export default COMPANIES;
