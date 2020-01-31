@@ -7,16 +7,15 @@ import {
   Heading,
   Box,
   Flex,
-  Image
 } from 'rebass';
 import COMPANIES from '../data/companies';
 
-function CompanyCard({company, color}) { 
+function CompanyCard({name, color}) {
   return (
-    <Link className="card" to={company} key={company}>
+    <Link className="card" to={name} key={name}>
       <Box textAlign="center" p={5} sx={{ borderRadius: 5 }} color="white" bg={color}>
         <Text fontSize={[ 3, 3, 4 ]}>
-          {company}
+          {name}
         </Text>
       </Box>
     </Link>
@@ -39,18 +38,19 @@ function Home() {
       >
         <Box width={1/2} textAlign={["center", "left"]}>
           <Heading variant='display'>
-            OffsetList
+            Offset List
           </Heading>
           <Text mt={3} fontSize={24}>
             Companies that have committed to offsetting their carbon emissions
           </Text>
         </Box>
-        <Box width={[1, 1/2, 1/2]} textAlign="center">
+        <Box width={[1, 1/2, 1/2]} height={450} textAlign="center">
           <model-viewer
             style={{width: "100%", height: "450px", outline: "none"}}
             src="earth.glb"
             alt="3D model of the earth"
             auto-rotate
+            auto-rotate-delay={0}
             background-color="black">
           </model-viewer>
         </Box>
@@ -66,7 +66,8 @@ function Home() {
         {COMPANIES.map(CompanyCard)}
       </Box>
       <Box pb={5} textAlign="center">
-        <code>Made with <span role="img" aria-label="tree">🌳</span> by Maas and Adam</code>
+        <code>Made with <span role="img" aria-label="tree">🌳</span> by Maas and Adam. </code>
+        <code><span role="img" aria-label="earth">🌍</span> from <a href="https://poly.google.com/view/88CP80Kgb-u">Poly</a></code>
       </Box>
     </Box>
   );
