@@ -1,4 +1,4 @@
-const COMPANIES = [
+const companies = [
   {
     name:'Shopify',
     color:'#50B83C',
@@ -104,5 +104,25 @@ const COMPANIES = [
   },
 
 ];
+
+const suggestCard = {
+   name:'Suggest a company',
+   color:'#0395FF',
+   url:'link-to-form'
+}
+
+let index = 0;
+const COMPANIES = companies.reduce((acc, item) => {
+   if(index % 5 === 0 && index !== 0) {
+      acc.push(suggestCard);
+      acc.push(item);
+      index++;
+      return acc;
+   } else {
+      acc.push(item);
+      index++;
+      return acc;
+   }
+}, []);
 
 export default COMPANIES;
