@@ -104,7 +104,7 @@ const COMPANIES = [
     color:'#45295d',
     url:'https://www.lendingloop.ca/environment',
   },
-];
+].sort(() => Math.random() - 0.5)
 
 const suggestCompany = {
   name: 'Suggest a company',
@@ -112,10 +112,10 @@ const suggestCompany = {
   url: 'link-to-form',
 }
 
-const suggestFrequency = 7;
+const suggestFrequency = 7
 
 for (let i = suggestFrequency; i < COMPANIES.length; i += suggestFrequency) {
-  COMPANIES.splice(i, 0, suggestCompany);
+  COMPANIES.splice(i, 0, suggestCompany)
 }
 
-export default COMPANIES;
+export default COMPANIES
