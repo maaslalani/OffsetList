@@ -176,7 +176,7 @@ const COMPANIES = [
   },
   {
     name:'Logitech',
-    color:'#000000',
+    color:'#009b85',
     url:'https://www.logitech.com/en-us/sustainability/environment.html',
   },
   {
@@ -201,7 +201,7 @@ const COMPANIES = [
   },
   {
     name:'Panasonic',
-    color:'#000000',
+    color:'#0056A8',
     url:'https://www.panasonic.com/global/corporate/sustainability/eco/co2.html',
   },
   {
