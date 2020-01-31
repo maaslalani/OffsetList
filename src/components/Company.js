@@ -51,8 +51,8 @@ function Company() {
         >
           {data.subtitle}
         </Text>
-        <Flex justifyContent="flex-start">
-          <canvas ref={canvasRef} width={200} height={200}></canvas>
+        <Flex justifyContent={["center", "flex-start"]}>
+          <canvas ref={canvasRef} width={200} height={300}></canvas>
         </Flex>
         <Flex alignItems="center" flexDirection={["column", "row"]} py={4}>
           <ExternalLink color="white" target="_blank" rel="noopener noreferrer" href={data.url}>
