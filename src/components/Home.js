@@ -13,8 +13,8 @@ import COMPANIES from '../data/companies';
 function CompanyCard({name, color}) {
   return (
     <Link className="card" to={name} key={name}>
-      <Box textAlign="center" p={5} sx={{ borderRadius: 5 }} color="white" bg={color}>
-        <Text fontSize={[ 3, 3, 4 ]}>
+      <Box textAlign="center" p={[4, 4, 5]} sx={{ borderRadius: 5 }} color="white" bg={color}>
+        <Text fontSize={[ 2, 3, 4 ]}>
           {name}
         </Text>
       </Box>
@@ -27,16 +27,16 @@ function Home() {
     <Box
       color="white"
       bg="black"
-      px={[5, 4, 6]}
-      py={4}
+      px={[2, 4, 6]}
+      py={5}
     >
       <Flex
         flexDirection={["column-reverse", "row"]}
         alignItems="center"
         justifyContent="space-around"
-        py={[4, 4, 6]}
+        py={[2, 4, 6]}
       >
-        <Box width={1/2} textAlign={["center", "left"]}>
+        <Box width={[1, 1/2]} textAlign={["center", "left"]}>
           <Heading variant='display'>
             Offset List
           </Heading>
@@ -70,9 +70,9 @@ function Home() {
       <Box pb={5} textAlign="center">
         <code>
           Made with <span role="img" aria-label="tree">🌳</span> by <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/maaslalani">Maas</a> and <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/gonenadam">Adam</a>. </code>
-        <code><span role="img" aria-label="earth">🌍</span> from <a href="https://poly.google.com/view/88CP80Kgb-u">Poly</a></code>
+          <code><span role="img" aria-label="earth">🌍</span> from <a href="https://poly.google.com/view/88CP80Kgb-u">Poly</a></code>
+        </Box>
       </Box>
-    </Box>
   );
 }
 
