@@ -49,8 +49,10 @@ function Home() {
             style={{width: "100%", height: "450px", outline: "none"}}
             src="earth.glb"
             alt="3D model of the earth"
+            camera-controls
             auto-rotate
-            auto-rotate-delay={0}
+            auto-rotate-delay={100}
+            interaction-prompt-threshold={20000}
             background-color="black">
           </model-viewer>
         </Box>
@@ -66,7 +68,8 @@ function Home() {
         {COMPANIES.map(CompanyCard)}
       </Box>
       <Box pb={5} textAlign="center">
-        <code>Made with <span role="img" aria-label="tree">🌳</span> by Maas and Adam. </code>
+        <code>
+          Made with <span role="img" aria-label="tree">🌳</span> by <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/maaslalani">Maas</a> and <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/gonenadam">Adam</a>. </code>
         <code><span role="img" aria-label="earth">🌍</span> from <a href="https://poly.google.com/view/88CP80Kgb-u">Poly</a></code>
       </Box>
     </Box>
