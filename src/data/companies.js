@@ -1,11 +1,8 @@
-const companies = [
+const COMPANIES = [
   {
     name:'Shopify',
     color:'#50B83C',
     url:'https://www.shopify.ca/about/environment',
-    title:'We need to change our climate for the better',
-    subtitle:'Anthropogenic climate change is the greatest challenge of our time. We need to tackle it together.',
-    reportLink: 'https://cdn.shopify.com/static/sustainability-report/2018%20Shopify%20Sustainability%20Report.pdf',
   },
   {
     name:'Microsoft',
@@ -102,27 +99,23 @@ const companies = [
     color:'#0A253E',
     url:'https://www.samsara.com/blog/sustainability'
   },
-
+  {
+    name:'Lending Loop',
+    color:'#45295d',
+    url:'https://www.lendingloop.ca/environment',
+  },
 ];
 
-const suggestCard = {
-   name:'Suggest a company',
-   color:'#0395FF',
-   url:'link-to-form'
+const suggestCompany = {
+  name: 'Suggest a company',
+  color:'#000',
+  url: 'link-to-form',
 }
 
-let index = 0;
-const COMPANIES = companies.reduce((acc, item) => {
-   if(index % 5 === 0 && index !== 0) {
-      acc.push(suggestCard);
-      acc.push(item);
-      index++;
-      return acc;
-   } else {
-      acc.push(item);
-      index++;
-      return acc;
-   }
-}, []);
+const suggestFrequency = 7;
+
+for (let i = suggestFrequency; i < COMPANIES.length; i += suggestFrequency) {
+  COMPANIES.splice(i, 0, suggestCompany);
+}
 
 export default COMPANIES;
