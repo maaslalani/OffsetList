@@ -121,7 +121,7 @@ const COMPANIES = [
    },
   {
    name:'Bloomberg',
-   color:'#000000',
+   color:'#2800d7',
    url:'https://www.bloomberg.com/impact/operations/beyond-bloomberg-opps/',
    },
   {
@@ -181,7 +181,7 @@ const COMPANIES = [
   },
   {
     name:'McKinsey & Company',
-    color:'#000000',
+    color:'#051c2c',
     url:'https://www.mckinsey.com/about-us/environmental-sustainability',
   },
   {
