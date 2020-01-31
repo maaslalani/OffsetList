@@ -1,5 +1,5 @@
 {
-  "name": "OffsetList",
+  "name": "offsetlist",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,5 +38,5 @@
   "devDependencies": {
     "gh-pages": "^2.2.0"
   },
-  "homepage": "https://maaslalani.github.io/OffsetList"
+  "homepage": "https://offsetlist.com"
 }

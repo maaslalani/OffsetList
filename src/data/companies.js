@@ -109,7 +109,7 @@ const COMPANIES = [
 const suggestCompany = {
   name: 'Suggest a company',
   color:'#000',
-  url: 'link-to-form',
+  url: 'https://airtable.com/shrSJYJXfYpyBar5E',
 }
 
 const suggestFrequency = 7
