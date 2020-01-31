@@ -1,13 +1,13 @@
-import React from 'react';
+import React from 'react'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-} from "react-router-dom";
-import Home from './components/Home';
+} from "react-router-dom"
+import Home from './components/Home'
 import { ThemeProvider } from 'emotion-theming'
 import { preset } from '@rebass/preset'
-import './App.css';
+import './App.css'
 
 const theme = {
   ...preset,
@@ -24,7 +24,7 @@ function App() {
         </Switch>
       </Router>
     </ThemeProvider>
-  );
+  )
 }
 
-export default App;
+export default App
