@@ -4,18 +4,19 @@ import {
   Heading,
   Box,
   Flex,
+  Link,
 } from 'rebass';
 import COMPANIES from '../data/companies';
 
 function CompanyCard({name, color, url}) {
   return (
-    <a key={name + color} className="card" target="_blank" rel="noopener noreferrer" href={url} >
+    <Link mx={[4, 0, 0]} key={name + color} className="card" target="_blank" rel="noopener noreferrer" href={url} >
       <Box textAlign="center" py={5} sx={{ borderRadius: 5 }} color="white" bg={color}>
-        <Text sx={{width: '100%'}} fontSize={4}>
+        <Text fontSize={4}>
           {name}
         </Text>
       </Box>
-    </a>
+    </Link>
   );
 }
 
@@ -24,7 +25,8 @@ function Home() {
     <Box
       color="white"
       bg="black"
-      px={[4, 4, 6]}
+      minWidth={300}
+      px={[0, 4, 6]}
       py={5}
     >
       <Flex
@@ -57,11 +59,10 @@ function Home() {
       </Flex>
       <Box
         py={6}
-        px={[3, 2, 0]}
         display="grid"
         sx={{
-          gridGap: 4,
-          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))'
+        gridGap: 4,
+        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))'
         }}
       >
         {COMPANIES.map(CompanyCard)}
