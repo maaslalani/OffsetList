@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/maaslalani/OffsetList/static/css/main.a782359d.chunk.css",
-    "main.js": "/maaslalani/OffsetList/static/js/main.9e3c9033.chunk.js",
-    "main.js.map": "/maaslalani/OffsetList/static/js/main.9e3c9033.chunk.js.map",
-    "runtime~main.js": "/maaslalani/OffsetList/static/js/runtime~main.e4adaf2b.js",
-    "runtime~main.js.map": "/maaslalani/OffsetList/static/js/runtime~main.e4adaf2b.js.map",
-    "static/js/2.c1e5f6fa.chunk.js": "/maaslalani/OffsetList/static/js/2.c1e5f6fa.chunk.js",
-    "static/js/2.c1e5f6fa.chunk.js.map": "/maaslalani/OffsetList/static/js/2.c1e5f6fa.chunk.js.map",
-    "index.html": "/maaslalani/OffsetList/index.html",
-    "precache-manifest.2d6707962b537b0ddcc2fcee25dae19e.js": "/maaslalani/OffsetList/precache-manifest.2d6707962b537b0ddcc2fcee25dae19e.js",
-    "service-worker.js": "/maaslalani/OffsetList/service-worker.js",
-    "static/css/main.a782359d.chunk.css.map": "/maaslalani/OffsetList/static/css/main.a782359d.chunk.css.map"
+    "main.css": "/offsetlist/static/css/main.a782359d.chunk.css",
+    "main.js": "/offsetlist/static/js/main.27bb2128.chunk.js",
+    "main.js.map": "/offsetlist/static/js/main.27bb2128.chunk.js.map",
+    "runtime~main.js": "/offsetlist/static/js/runtime~main.e841220e.js",
+    "runtime~main.js.map": "/offsetlist/static/js/runtime~main.e841220e.js.map",
+    "static/js/2.c1e5f6fa.chunk.js": "/offsetlist/static/js/2.c1e5f6fa.chunk.js",
+    "static/js/2.c1e5f6fa.chunk.js.map": "/offsetlist/static/js/2.c1e5f6fa.chunk.js.map",
+    "index.html": "/offsetlist/index.html",
+    "precache-manifest.008dfd000700ea2243131601912749a5.js": "/offsetlist/precache-manifest.008dfd000700ea2243131601912749a5.js",
+    "service-worker.js": "/offsetlist/service-worker.js",
+    "static/css/main.a782359d.chunk.css.map": "/offsetlist/static/css/main.a782359d.chunk.css.map"
   }
 }
