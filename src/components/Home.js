@@ -41,12 +41,18 @@ function Home() {
           <Heading variant='display'>
             OffsetList
           </Heading>
-          <Text mt={3}>
+          <Text mt={3} fontSize={24}>
             Companies that have committed to offsetting their carbon emissions
           </Text>
         </Box>
-        <Box width={1/2} textAlign="center">
-          <Image src={require('../images/tree.png')} alt="Tree" width={500} />
+        <Box width={[1, 1/2, 1/2]} textAlign="center">
+          <model-viewer
+            style={{width: "100%", height: "450px", outline: "none"}}
+            src="earth.glb"
+            alt="3D model of the earth"
+            auto-rotate
+            background-color="black">
+          </model-viewer>
         </Box>
       </Flex>
       <Box
