@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/OffsetList/static/css/main.786d0a20.chunk.css",
-    "main.js": "/OffsetList/static/js/main.2d89ff66.chunk.js",
-    "main.js.map": "/OffsetList/static/js/main.2d89ff66.chunk.js.map",
+    "main.css": "/OffsetList/static/css/main.ea9f42f2.chunk.css",
+    "main.js": "/OffsetList/static/js/main.94dac1dd.chunk.js",
+    "main.js.map": "/OffsetList/static/js/main.94dac1dd.chunk.js.map",
     "runtime~main.js": "/OffsetList/static/js/runtime~main.89efd4aa.js",
     "runtime~main.js.map": "/OffsetList/static/js/runtime~main.89efd4aa.js.map",
     "static/js/2.c1e5f6fa.chunk.js": "/OffsetList/static/js/2.c1e5f6fa.chunk.js",
     "static/js/2.c1e5f6fa.chunk.js.map": "/OffsetList/static/js/2.c1e5f6fa.chunk.js.map",
     "index.html": "/OffsetList/index.html",
-    "precache-manifest.b53b511ae3312a3502da273963c82f6b.js": "/OffsetList/precache-manifest.b53b511ae3312a3502da273963c82f6b.js",
+    "precache-manifest.c1081af92ecf38ea7d42cea08bf76ceb.js": "/OffsetList/precache-manifest.c1081af92ecf38ea7d42cea08bf76ceb.js",
     "service-worker.js": "/OffsetList/service-worker.js",
-    "static/css/main.786d0a20.chunk.css.map": "/OffsetList/static/css/main.786d0a20.chunk.css.map"
+    "static/css/main.ea9f42f2.chunk.css.map": "/OffsetList/static/css/main.ea9f42f2.chunk.css.map"
   }
 }
