@@ -238,7 +238,7 @@ const COMPANIES = [
 
 const suggestCompany = {
   name: 'Suggest a company',
-  color:'#000',
+  color:'#68B03D',
   url: 'https://airtable.com/shrSJYJXfYpyBar5E',
 }
 
