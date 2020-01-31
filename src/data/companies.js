@@ -12,12 +12,12 @@ const COMPANIES = [
   {
     name:'Google',
     color:'#4285F4',
-    url:''
+    url:'https://sustainability.google/environment/'
   },
   {
     name:'Stripe',
     color:'#008CDD',
-    url:''
+    url:'https://stripe.com/en-ca/environment'
   },
   {
     name:'Facebook',
@@ -42,7 +42,7 @@ const COMPANIES = [
   {
     name:'Accenture',
     color:'#0089FF',
-    url:''
+    url:'https://www.accenture.com/us-en/about/corporate-citizenship/advancing-sustainability'
   },
   {
     name:'Atlassian',
