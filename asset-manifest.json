@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/offsetlist/static/css/main.a782359d.chunk.css",
+    "main.css": "/offsetlist/static/css/main.786d0a20.chunk.css",
     "main.js": "/offsetlist/static/js/main.5d366f3c.chunk.js",
     "main.js.map": "/offsetlist/static/js/main.5d366f3c.chunk.js.map",
     "runtime~main.js": "/offsetlist/static/js/runtime~main.e841220e.js",
@@ -8,8 +8,8 @@
     "static/js/2.c1e5f6fa.chunk.js": "/offsetlist/static/js/2.c1e5f6fa.chunk.js",
     "static/js/2.c1e5f6fa.chunk.js.map": "/offsetlist/static/js/2.c1e5f6fa.chunk.js.map",
     "index.html": "/offsetlist/index.html",
-    "precache-manifest.8a83a484233b4773c9f626b3f4bd8457.js": "/offsetlist/precache-manifest.8a83a484233b4773c9f626b3f4bd8457.js",
+    "precache-manifest.d7ad176e48aee0adc76592504b9e1fea.js": "/offsetlist/precache-manifest.d7ad176e48aee0adc76592504b9e1fea.js",
     "service-worker.js": "/offsetlist/service-worker.js",
-    "static/css/main.a782359d.chunk.css.map": "/offsetlist/static/css/main.a782359d.chunk.css.map"
+    "static/css/main.786d0a20.chunk.css.map": "/offsetlist/static/css/main.786d0a20.chunk.css.map"
   }
 }
