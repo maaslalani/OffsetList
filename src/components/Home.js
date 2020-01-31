@@ -10,7 +10,7 @@ import COMPANIES from '../data/companies';
 
 function CompanyCard({name, color, url}) {
   return (
-    <Link key={name + color} className="card" target="_blank" rel="noopener noreferrer" href={url} >
+    <Link key={name + color + Math.floor(Math.random() * 100)} className="card" target="_blank" rel="noopener noreferrer" href={url} >
       <Box textAlign="center" py={5} sx={{ borderRadius: 5 }} color="white" bg={color}>
         <Text fontSize={4}>
           {name}
@@ -26,7 +26,7 @@ function Home() {
       color="white"
       bg="black"
       minWidth={300}
-      px={[3, 4, 6]}
+      px={[4, 4, 6]}
       py={5}
     >
       <Flex
