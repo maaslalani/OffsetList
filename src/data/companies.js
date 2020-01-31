@@ -104,6 +104,136 @@ const COMPANIES = [
     color:'#45295d',
     url:'https://www.lendingloop.ca/environment',
   },
+  {
+   name:'Allianz',
+   color:'#003781',
+   url:'https://www.allianz.com/en/sustainability/low-carbon-economy/decarbonization.html',
+  },
+  {
+   name:'Bank of America',
+   color:'#012169',
+   url:'https://about.bankofamerica.com/en-us/global-impact/env-operations-detail.html#fbid=sRbog1b3X3w',
+  },
+  {
+   name:'Barclays',
+   color:'#00AEEF',
+   url:'https://home.barclays/news/2019/1/barclays-approach-to-energy-and-climate-change/',
+   },
+  {
+   name:'Bloomberg',
+   color:'#000000',
+   url:'https://www.bloomberg.com/impact/operations/beyond-bloomberg-opps/',
+   },
+  {
+   name:'Capital One',
+   color:'#9F1D25',
+   url:'https://environment.capitalone.com/',
+    },
+  {
+   name:'Coca-Cola',
+   color:'#F40009',
+   url:'https://www.coca-colacompany.com/news/reducing-emissions-from-manufacturing-ops',
+  },
+  {
+    name:'T-Mobile',
+    color:'#E20074',
+    url:'https://www.t-mobile.com/responsibility/sustainability/renewable-energy',
+  },
+  {
+    name:'Ebay',
+    color:'#86B816',
+    url:'https://www.ebayinc.com/impact/responsible-business/environmental-footprint/',
+  },
+  {
+    name:'Etsy',
+    color:'#F16521',
+    url:'https://www.etsy.com/impact',
+  },
+  {
+    name:'Goldman Sachs',
+    color:'#7299C6',
+    url:'https://www.goldmansachs.com/citizenship/environmental-stewardship/our-operational-impact/carbon-energy/',
+  },
+  {
+    name:'H&M',
+    color:'#CD2522',
+    url:'https://hmgroup.com/sustainability/Planet/climate.html',
+  },
+  {
+    name:'Johnson & Johnson',
+    color:'#D51901',
+    url:'https://www.jnj.com/global-environmental-health/climate-and-energy',
+  },
+  {
+    name:'Kellogg\'s',
+    color:'#D41747',
+    url:'https://www.kelloggs.com/en_US/who-we-are/environmental-initatives.html',
+  },
+  {
+    name:'LEGO',
+    color:'#D10E12',
+    url:'https://www.lego.com/en-us/aboutus/responsibility/sustainability/',
+  },
+  {
+    name:'Logitech',
+    color:'#000000',
+    url:'https://www.logitech.com/en-us/sustainability/environment.html',
+  },
+  {
+    name:'McKinsey & Company',
+    color:'#000000',
+    url:'https://www.mckinsey.com/about-us/environmental-sustainability',
+  },
+  {
+    name:'Next',
+    color:'#000000',
+    url:'https://www.nextplc.co.uk/corporate-responsibility/environment',
+  },
+  {
+    name:'Nike',
+    color:'#000000',
+    url:'https://purpose.nike.com/carbon-energy',
+  },
+  {
+    name:'New Balance',
+    color:'#E21837',
+    url:'https://www.newbalance.com/responsible-leadership/environment.html',
+  },
+  {
+    name:'Panasonic',
+    color:'#000000',
+    url:'https://www.panasonic.com/global/corporate/sustainability/eco/co2.html',
+  },
+  {
+    name:'Ralph Lauren',
+    color:'#002344',
+    url:'https://corporate.ralphlauren.com/citizenship-protect-the-environment',
+  },
+  {
+    name:'SAP',
+    color:'#029DE1',
+    url:'https://news.sap.com/2017/05/sap-to-go-carbon-neutral-by-2025',
+  },
+  {
+    name:'Starbucks',
+    color:'#016341',
+    url:'https://www.starbucks.com/responsibility/environment/climate-change',
+  },
+  {
+    name:'Target',
+    color:'#CC0000',
+    url:'https://corporate.target.com/corporate-responsibility/planet/climate',
+  },
+  {
+    name:'Walmart',
+    color:'#0171CE',
+    url:'https://corporate.walmart.com/global-responsibility/sustainability/sustainability-in-our-operations/reducing-greenhouse-gas-emissions',
+  },
+  {
+    name:'Wells Fargo',
+    color:'#D71F28',
+    url:'https://www.wellsfargo.com/about/corporate-responsibility/environment',
+  },
 ].sort(() => Math.random() - 0.5)
 
 const suggestCompany = {
