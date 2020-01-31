@@ -4,7 +4,6 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Company from './components/Company';
 import Home from './components/Home';
 import { ThemeProvider } from 'emotion-theming'
 import { preset } from '@rebass/preset'
@@ -19,9 +18,6 @@ function App() {
     <ThemeProvider theme={theme}>
       <Router>
         <Switch>
-          <Route path="/:company">
-            <Company />
-          </Route>
           <Route path="/">
             <Home />
           </Route>

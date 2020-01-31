@@ -10,15 +10,15 @@ import {
 } from 'rebass';
 import COMPANIES from '../data/companies';
 
-function CompanyCard({name, color}) {
+function CompanyCard({name, color, url}) {
   return (
-    <Link className="card" to={name} key={name}>
+    <a target="_blank" rel="noopener noreferrer" href={url} >
       <Box textAlign="center" p={[4, 4, 5]} sx={{ borderRadius: 5 }} color="white" bg={color}>
         <Text fontSize={[ 2, 3, 4 ]}>
           {name}
         </Text>
       </Box>
-    </Link>
+    </a>
   );
 }
 
