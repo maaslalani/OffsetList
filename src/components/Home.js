@@ -40,7 +40,7 @@ function Home() {
             Offset List
           </Heading>
           <Text mt={3} fontSize={24}>
-            Companies that have committed to offsetting their carbon emissions
+            Companies that have committed to offsetting their carbon emissions. You can offset your carbon footprint with <Link href="https://projectwren.com/">Project Wren</Link>.
           </Text>
         </Box>
         <Box width={[1, 1/2, 1/2]} height={450} textAlign="center">

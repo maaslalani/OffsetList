@@ -244,6 +244,11 @@ const COMPANIES = [
     color:'#0B3D91',
     url:'https://www.nasa.gov/centers/wstf/about_us/environmental_management/sustainability.html',
   },
+  {
+    name:'Compound',
+    color:'#0A4979',
+    url:'https://projectwren.com/',
+  },
 ].sort(() => Math.random() - 0.5)
 
 const suggestCompany = {
