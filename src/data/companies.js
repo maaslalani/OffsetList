@@ -72,7 +72,7 @@ const COMPANIES = [
   {
     name:'Salesforce',
     color:'#009EDB',
-    url:'https://www.salesforce.com/name/news-press/press-releases/2019/09/191809-gl/'
+    url:'https://www.salesforce.com/company/news-press/press-releases/2019/09/191809-gl/'
   },
   {
     name:'VMware',
@@ -82,7 +82,7 @@ const COMPANIES = [
   {
     name:'Workday',
     color:'#E28225',
-    url:'https://www.workday.com/en-us/name/about-workday/sustainability.html'
+    url:'https://www.workday.com/en-us/company/about-workday/sustainability.html'
   },
   {
     name:'LinkedIn',
