@@ -5,6 +5,11 @@ const COMPANIES = [
     url:'https://www.shopify.ca/about/environment',
   },
   {
+    name:'Allbirds',
+    color:'#212A2F',
+    url:'https://www.allbirds.com/pages/our-commitment',
+  },
+  {
     name:'Microsoft',
     color:'#F25022',
     url:'https://blogs.microsoft.com/blog/2020/01/16/microsoft-will-be-carbon-negative-by-2030/'
@@ -176,7 +181,7 @@ const COMPANIES = [
   },
   {
     name:'Logitech',
-    color:'#009b85',
+    color:'#009B85',
     url:'https://www.logitech.com/en-us/sustainability/environment.html',
   },
   {
@@ -233,6 +238,11 @@ const COMPANIES = [
     name:'Wells Fargo',
     color:'#D71F28',
     url:'https://www.wellsfargo.com/about/corporate-responsibility/environment',
+  },
+  {
+    name:'Nasa',
+    color:'#0B3D91',
+    url:'https://www.nasa.gov/centers/wstf/about_us/environmental_management/sustainability.html',
   },
 ].sort(() => Math.random() - 0.5)
 
