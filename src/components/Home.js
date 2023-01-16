@@ -48,6 +48,7 @@ function Home() {
             style={{width: "100%", height: "450px", outline: "none"}}
             src="earth.glb"
             alt="3D model of the earth"
+            disable-zoom
             camera-controls
             auto-rotate
             auto-rotate-delay={100}
