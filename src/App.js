@@ -16,7 +16,7 @@ const theme = {
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/">
             <Home />
